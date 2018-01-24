@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="UltimateLED2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="#FF3C3C3C" Height="1078">
+        <TextBlock x:Name="AwesomeHeader" HorizontalAlignment="Left" Margin="20,20,0,0" Text="Lucas's Super Awesome Uber-Mondo Light-Turner-Onner of Doom" TextWrapping="Wrap" Height="45" VerticalAlignment="Top" Foreground="White" AutomationProperties.IsRequiredForForm="True" Width="887"/>
+        <Ellipse x:Name="StatusIndicator" Height="225" Width="225" HorizontalAlignment="Left" Margin="20,20,0,0" Fill="#FFD40606" Stroke="#FFFFE0E0" StrokeThickness="2"/>
+        <TextBox x:Name="OutputBox" Text="Lucas is totally awesome because he puts random words in text boxes to see if the aformentioned text boxes and sufficiently and properly display large amounts of text that will probably be just as worthless or even more worthless than the extremely lengthy, wordy, complicated, and confusing mass of worthlessness of which you are currently attempting to decipher.  That was all one sentence." Height="223" HorizontalAlignment="Left" Width="1000" Margin="20,20,0,0" BorderBrush="#66000000" Background="#8CFFFFFF" FontSize="18" FontFamily="Calibri" FontWeight="Normal" TextWrapping="Wrap" AcceptsReturn="True" IsReadOnly="True"/>
+        <Button x:Name="ManualToggle" Content="TOGGLE MANUALLY" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,20,0,0" Foreground="Red" Click="ManualToggle_Click" Height="72" Width="308"/>
+    </StackPanel>
+</Page>
